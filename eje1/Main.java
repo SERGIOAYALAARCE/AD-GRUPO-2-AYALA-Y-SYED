@@ -17,7 +17,7 @@ public class Main {
         Rectangulo r1 = new Rectangulo(c1, c2);
         Rectangulo r2 = new Rectangulo(c3, c4);
 
-        // Agregar al contenedor 🔥
+        // Agregar al contenedor 
         cont.addRectangulo(r1);
         cont.addRectangulo(r2);
 
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("¿Juntos?: " + Verificador.esJunto(r1, r2));
         System.out.println("¿Disjuntos?: " + Verificador.esDisjunto(r1, r2));
 
-        // 🔥 Mostrar contenedor (LO QUE TE PIDEN)
+        //  Mostrar contenedor (LO QUE TE PIDEN)
         System.out.println("\nContenido del contenedor:");
         System.out.println(cont);
     }
